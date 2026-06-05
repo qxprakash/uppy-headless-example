@@ -1,0 +1,25 @@
+{
+  "name": "uppy-headless-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@uppy/core": "^5.2.0",
+    "@uppy/react": "^5.2.0",
+    "@uppy/remote-sources": "^3.1.0",
+    "@uppy/transloadit": "file:./vendor/uppy-transloadit-5.6.0-bridge.0.tgz",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "^5.7.3",
+    "vite": "^7.1.11"
+  }
+}
